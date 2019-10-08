@@ -1,12 +1,12 @@
 .fa { 
-    padding: 20px;
-    padding-bottom:0px;
+    padding: 10px;
+    /* padding-bottom:0px; */
     font-size: 30px;
-    width: 50px;
+    /* width: 50px; */
     margin: 5px 2px;
     float: right;
-    padding-top: 0;
-   } 
+} 
+
 
 h1 {
     padding: 30px; 
@@ -21,5 +21,15 @@ h1 {
 .card {
     background-color:navy;
     width:50%; 
+    color: white;
 }
+h2, h3 {
+    text-decoration-line: underline;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+  }
 
