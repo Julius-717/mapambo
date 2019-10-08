@@ -1,0 +1,25 @@
+.fa { 
+    padding: 20px;
+    padding-bottom:0px;
+    font-size: 30px;
+    width: 50px;
+    margin: 5px 2px;
+    float: right;
+    padding-top: 0;
+   } 
+
+h1 {
+    padding: 30px; 
+    text-decoration-line:underline;
+    margin-left: 11%;
+    font-size: 70px;
+}
+.stylist-form {
+    margin-right: 50%;
+}
+
+.card {
+    background-color:navy;
+    width:50%; 
+}
+
