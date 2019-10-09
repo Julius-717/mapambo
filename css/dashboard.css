@@ -12,7 +12,7 @@ h1 {
     padding: 30px; 
     text-decoration-line:underline;
     margin-left: 11%;
-    font-size: 70px;
+    font-size: 30px;
 }
 .stylist-form {
     margin-right: 50%;
@@ -21,7 +21,7 @@ h1 {
 .card {
     background-color:navy;
     width:50%; 
-    color: white;
+    color: black;
 }
 h2, h3 {
     text-decoration-line: underline;
