@@ -10,47 +10,50 @@
         crossorigin="anonymous"></script>
     <script src="js/dashboard.js"></script>
     <title>Stylist Info</title>
-    <!-- <div class="social-media-icons">
-        <a href="http://www.facebook.com/" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
-        <a href="https://ke.linkedin.com/" class="fa fa-linkedin"></a>
-        <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"></a>
-        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a> -->
     </div>
 </head>
 
-<body>
+<body onload='document.form1.text1.focus()'>
     <center>
-        <div class="stylist-profile">
-            <h1>Mapambo🛠</h1>
-        </div>
-
-        <!-- <form action="/action_page.php">
-            <input type="file" name="pic" accept="image/*">
-            <input type="submit">
-        </form> -->
+         <div class ="mySection">
         <div class="card">
+            <card header>
+                    <h1>Mapambo🛠</h1>
+            </card>
+            <h2>Stylist Profile</h2>
             <img src="images/stlist1.jpg" alt="stylist" style="width:100%">
             <div novalidate>
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Stylist Profile</h2>
                         <h3>Details</h3>
                         <div class="col-md-12">
                             <label for="names">
                                 <b>
-                                    <h8>User Name</h8>
+                                    <h8>First Name</h8>
                                 </b></label><br>
-                            <input type="text" placeholder="Enter User Name" name="user_name" required><br><br>
+                            <input type="text" placeholder="First Name" name="user_name" id="txt1" required><br><br>
+                            <label for="text"><b>
+                                    <h8>Last Name</h8>
+                                </b></label><br>
+                            <input type="text" placeholder="Last Name" name="name" id="txt2" required><br><br>
                             <label for="street-address">
                                 <b>
-                                    <h8>Address</h8>
+                                    <!-- <h8>Address</h8>
                                 </b></label><br>
-                            <input type="text" placeholder="P.O box, code" name="address" required><br><br>
+                            <input type="text" placeholder="P.O box, code" name="address" required><br><br> -->
                             <label for="years"><b>
                                     <h8>Years of Experinece</h8>
                                 </b></label><br>
                             <input type="text" placeholder="Years" name="years" required><br><br>
+                            <label for="phone"><b>
+                                    <h8>Phone Number</h8>
+                                </b></label><br>
+                            <input type="text" placeholder= "Number" name="phone" required><br><br>
+                            <label for="email"><b>
+                                    <h8>Email</h8>
+                                </b></label><br>
+                            <input type="text" placeholder="Email" name="email" id ="email" required><br><br>
+
                         </div>
                         <div class="social-media-icons">
                             <a href="http://www.facebook.com/" class="fa fa-facebook"></a>
@@ -67,7 +70,9 @@
             <label>Qualifications</label><br>
             <textarea rows="5" cols="55" placeholder="Stylist Qualifications"></textarea>
         </div>
+        <input type="submit" value ="submit" id ="submit"/>
+    </div>   
 </body>
-</center>
+</center> 
 
 </html>
