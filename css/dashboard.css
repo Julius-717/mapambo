@@ -41,9 +41,9 @@ h2, h3 {
     font-size: 20px;
 }
 
-button, #sign up {
+button, #sign-up {
     background-color:whitesmoke;
 }
-button:hover {
+button, #sign-up:hover {
     background-color: brown;
 }
