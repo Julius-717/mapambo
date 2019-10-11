@@ -1,8 +1,14 @@
 body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuBbbIONAZl9yyYkjUdWH4HTSNMkQkw9cLjCv_vK6dHqMBsroNA);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiuBbbIONAZl9yyYkjUdWH4HTSNMkQkw9cLjCv_vK6dHqMBsroNA); */
     font-family: serif;
     font-weight: lighter;
     font-style: italic;
+    background: url(https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+}
+
+.carousel-inner {
+    background: url(https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 h1 {
