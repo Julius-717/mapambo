@@ -13,7 +13,7 @@ $(document).ready(function(){
       //   formLogin.password.focus();
       //   return false;
       // }
-      if (username =="ben" && password =="123"){
+      if (username =="kash" && password =="123"){
         // alert("Login successful");
         window.location.href ="index.html";
         return false;
