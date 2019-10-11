@@ -27,3 +27,7 @@ color:white
 .card {
   color: aquamarine;
 }
+.pl-5{
+  width: 90%;
+  height: 250px;
+}
