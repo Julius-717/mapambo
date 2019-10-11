@@ -13,7 +13,7 @@ $(document).ready(function(){
       //   formLogin.password.focus();
       //   return false;
       // }
-      if (username =="ben" && password =="123"){
+      if (username =="kash" && password =="123"){
         // alert("Login successful");
         window.location.href ="index.html";
         return false;
@@ -21,7 +21,11 @@ $(document).ready(function(){
         $('.message').show();
       }
         else{
-          // alert("Login failed! enter right  username and password.")
+          // alert("Login failed! enter right  username and password.")var stylistDashboard = 'Dashboard';
+
+localStorage.setItem('stylistDashboard', stylistDashboard);
+
+
           $('.message').show();
           event.preventDefault();
         }
