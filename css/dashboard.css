@@ -1,0 +1,49 @@
+.fa { 
+    padding: 10px;
+    padding-bottom:0px;
+    font-size: 30px;
+    margin: 5px 2px;
+    float: right;
+} 
+
+
+h1 {
+    padding: 30px; 
+    text-decoration-line:underline;
+    margin-left: 11%;
+    font-size: 30px;
+}
+.stylist-form {
+    margin-right: 50%;
+}
+
+.card {
+    background-color:navy;
+    width:50%; 
+    color: black;
+}
+h2, h3 {
+    text-decoration-line: underline;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+  }
+
+.column {
+    color: black;
+}
+
+.subtitle {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+button, #sign up {
+    background-color:whitesmoke;
+}
+button:hover {
+    background-color: brown;
+}
