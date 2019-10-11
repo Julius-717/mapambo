@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- //signup css -->
     <link rel="stylesheet" href="css/signup.css">
-    <!-- main css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- main css
+    <link rel="stylesheet" href="css/main.css"> -->
     <!-- font awesome js-->
     <script src="js/all.js"></script>
+    <!-- signup js -->
+    <script src="js/signup.js"></script>
     <!-- google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
-    <!-- magnific pop up-->
-    <link rel="stylesheet" href="magnific pop up/magnific-popup.css">
 </head>
 
 <body>
@@ -36,7 +36,8 @@
                             <div class="input-fields">
                                 <input id="stylistfirstname" type="text" class="input-box"
                                     placeholder="Your first name"><br>
-                                <input id="stylistlastname" type="text" class="input-box" placeholder="Your last name"><br>
+                                <input id="stylistlastname" type="text" class="input-box"
+                                    placeholder="Your last name"><br>
                                 <input id="stylistphonenumber" type="text" class="input-box"
                                     placeholder="Your phone number"><br>
                                 <input id="stylistemail" type="email" class="input-box" placeholder="Your Email"><br>
@@ -46,8 +47,12 @@
                                 <input type="radio" name="gender" value="other">Other<br>
                                 <p><span><input type="checkbox"></span>I agree to the terms of
                                     services</p>
-                                <button type="button" class="signup-btn">Sign up</button>
-                                
+                                <input  id="submit" class='ghost-round full-width' onclick="validate()" name=""
+                                    type="submit" value="Submit"> <a href="dashboard.html"></a> </input>
+                                <!-- <div id="message">
+                                    <p>Invalid Username and password</p>
+                                </div> -->
+
                                 <p>Not a <strong>stylist?</strong> Access the client <em>sign up</em> <a
                                         href="customersignup.html"><strong>here</strong></a></p>
                                 <hr>

@@ -10,14 +10,17 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- //signup css -->
     <link rel="stylesheet" href="css/signup.css">
-    <!-- main css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- main css
+    <link rel="stylesheet" href="css/main.css"> -->
     <!-- font awesome js-->
     <script src="js/all.js"></script>
+    <!-- //ajax js
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <!-- //email validation js -->
+    <script src="js/signup.js"></script>
     <!-- google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
-    <!-- magnific pop up-->
-    <link rel="stylesheet" href="magnific pop up/magnific-popup.css">
+
 </head>
 
 <body>
@@ -34,8 +37,10 @@
                         <h2>Sign Up Now</h2>
                         <form class="input">
                             <div class="input-fields">
-                                <input id="clientfirstname" type="text" class="input-box" placeholder="Your first name"><br>
-                                <input id="clientlastname" type="text" class="input-box" placeholder="Your last name"><br>
+                                <input id="clientfirstname" type="text" class="input-box"
+                                    placeholder="Your first name"><br>
+                                <input id="clientlastname" type="text" class="input-box"
+                                    placeholder="Your last name"><br>
                                 <input id="clientphonenumber" type="text" class="input-box"
                                     placeholder="Your phone number"><br>
                                 <input id="clientemail" type="email" class="input-box" placeholder="Your Email"><br>
@@ -45,15 +50,19 @@
                                 <input type="radio" name="gender" value="other">Other<br>
                                 <p><span><input type="checkbox"></span>I agree to the terms of
                                     services</p>
-                                <button type="button" class="signup-btn">Sign up</button>
+                                <input id="submit" class='ghost-round full-width' onclick="validate()" name=""
+                                    type="submit" value="Submit"> <a href="services.html"></a> </input>
                                 <p>Not a <strong>client?</strong> Access the stylist <a
                                         href="stylistsignup.html"><strong>here</strong></a></p>
                                 <hr>
                                 <p class="or">OR</p>
                                 <p>Do you have an account?</p>
-                                <button type="button" class="signup-btn"><a href="Login.html">Login</a></button>
+                                <button id="validate" type="button" class="signup-btn"><a
+                                        href="Login.html">Login</a></button>
                             </div>
                         </form>
+                        <h3 id='result'></h3>
+
                     </div>
                 </div>
             </div>
