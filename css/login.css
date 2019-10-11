@@ -17,23 +17,23 @@ button:focus {
   color: rgba(255, 255, 255, 0.65);
 }
 
-::-webkit-input-placeholder .input-line:focus +::input-placeholder {
-  color: #fff;
-}
+/* ::-webkit-input-placeholder .input-line:focus +::input-placeholder {
+  color:green;
+} */
 
 .highlight {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
   font-weight: 400;
   cursor: pointer;
   transition: color .2s ease;
 }
 
-.highlight:hover {
+/* .highlight:hover {
   color: #fff;
   transition: color .2s ease;
-}
+} */
 
-.spacing {
+/* .spacing {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
@@ -43,14 +43,14 @@ button:focus {
   text-align: center;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.65)
-}
+} */
 
-.login:focus {
+/* .login:focus {
   outline: none;
   border-color: #fff;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
-}
+} */
 
 .ghost-round {
   cursor: pointer;

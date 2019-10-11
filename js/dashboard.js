@@ -11,9 +11,9 @@ $(document).ready(function () {
                                         if (fname == "Brian" && lname == "Mwenda" && pnumber == "123" && email == "brianmwenda@gmail.com")
                                                 if (fname == "Peter" && lname == "Murutu" && pnumber == "123" && email == "petermurutu@gmail.com") {
                                                         // window.location.href = "index.html";
-                                                        return false;
-                                                        $('.content').hide();
-                                                        $('.message').show();
+                                                        // return false;
+                                                        // $('.content').hide();
+                                                        // $('.message').show();
                                                 }
                 alert("Welcome to your profile" + " " + fname + " " + lname + " " + "your number is" + " " + pnumber + "your email is" + " " + email);
         });

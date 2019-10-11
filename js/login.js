@@ -21,7 +21,11 @@ $(document).ready(function(){
         $('.message').show();
       }
         else{
-          // alert("Login failed! enter right  username and password.")
+          // alert("Login failed! enter right  username and password.")var stylistDashboard = 'Dashboard';
+
+localStorage.setItem('stylistDashboard', stylistDashboard);
+
+
           $('.message').show();
           event.preventDefault();
         }
